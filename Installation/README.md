@@ -27,4 +27,12 @@
     * Set SafeModePassword
     * Once Reboot is complete reset DNS to own.
 
+# Add Clients to Domain
+
+ 1. Set Client DNS to Domain Controller IP
+
+ 2. Add to Domain
+        Command: add-computer -domainname xyz.com -Credenttial xyz\Administrator -Force -Restart
+        ---- Enter Domain Admin Credential
+
         
